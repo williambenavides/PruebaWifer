@@ -6,29 +6,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Registro</title>
 </head>
+
 <body>
     <h1>Registro para Vacunación <strong>COVID-19</strong></h1>
     <form action="" method="GET">
+        <label for="">Sede</label>
+        <input type="text" value="Panamericana" disabled>
+        <br><br>
         <label for="nombre">Nombre:</label>
-        <input type="text" name="nombre" id="nombre">
+        <input type="text" name="nombre" id="nombre" placeholder="ej. pablo" required>
         <br><br>
         <label for="apellido">Apellidos:</label>
-        <input type="text" name="apellido" id="apellido">
+        <input type="text" name="apellido" id="apellido" placeholder="picapiedra" required>
         <br><br>
         <label for="">Sexo</label>
-        <input type="radio">Hombre
+        <input type="radio">Hombre<!-- input de seleccion -->
         <input type="radio">Mujer
-        <br><br>
+        <br><br><!-- salto de linea -->
         <label for="correo">Correo</label>
-        <input type="email" name="correo" id="correo">
+        <input type="email" name="correo" id="correo" placeholder="pablo@correo.com" required><!-- placeholder : ejemplo de como se llena esa entrada y required : que se debe llenar ese campo -->
         <br><br>
         <label for="password">Contraseña</label>
         <input type="password" name="password" id="password">
         <br><br>
-        <input type="checkbox" name="terminos" id="terminos">
+        <label for="fecha">Fecha de Nacimiento</label>
+        <input type="date" name="fecha" id="fecha">
+        <br><br>
+        <label for="foto">Añade tu Foto</label>
+        <input type="file" name="foto" id="foto">
+        <br><br>
+        <input type="checkbox" name="terminos" id="terminos" required><!-- input de validar o aceptar -->
         <label for="terminos">Declaro haber leído y aceptar las
             condiciones generales del programa y la normativa sobre protección de datos</label>
-            <br><br>
+            <br><br>        
         <button type="submit">Registrar</button>
         </form>
     
