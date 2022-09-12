@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head >
+    <title>MI PRIMERA WEB</title>
+    <style>table,th,td{
+        border: 1px solid black;
+    }
+    </style>
+</head>
+<body>
+    <table style="width: 500px;" >
+        <thead>
+        <tr>
+            <th>Producto</th>
+            <th>Precio</th>
+        </tr>
+    </thead>
+        <tbody>
+        <tr>
+            <td>hola beats</td>
+            <td>gratis</td>
+        </tr>
+        <tr>
+            <td>chanchito feliz</td>
+            <td>19.90$</td>
+        </tr>
+        <tr>
+            <td>chanchito feliz muy feliz</td>
+            <td>29.90$</td>
+        </tr>
+    </tbody>
+    <tfoot>
+        <td></td>
+        <td>total: 49.90$</td>
+    </tfoot>
+    </table>
+
+
+    <!-- ul es lista no ordenada -->
+    <ul>
+        <li> elemento1</li>
+        <li> elemento1</li>
+        <li> elemento1</li>
+        <li> elemento1</li>
+    </ul>
+    <!-- ol lista ordenada  -->
+    <ol>
+        <li value="50"> elemento1</li><!-- value es para indicar donde inicia la lista ordenada -->
+        <li> elemento1</li>
+        <li> elemento1</li>
+        <li> elemento1</li>
+        <li>
+            <ol>
+                <li style="list-style-type: lower-roman;">sub elemento 1</li>
+                <li style="list-style-type: lower-roman;">sub elemento 1</li>
+                <li style="list-style-type: lower-roman;">sub elemento 1</li>
+                <li style="list-style-type: lower-roman;">sub elemento 1</li>
+                <li style="list-style-type: lower-roman;">sub elemento 1</li>
+            </ol>
+        </li>
+    </ol>
+
+
+
+    <form action="/formulario" method="GET">
+        <label for="nombre">Nombre</label>
+        <input value="chanchito" type="text" id="nombre" name="nombre" placeholder="ej. pepe" />
+        <br><br>
+        <label for="apellido">Apellido</label>
+        <input value="feliz" type="apellido" name="apellido" id="apellido" placeholder="ej chacon">
+<br><br>
+<label for="comentario">Comentario</label>
+<br><br>
+        <textarea name="comentario" id="comentario" cols="50" rows="10" placeholder="ingrese aqui sus comentarios"></textarea>
+<br><br>
+<button type="button"><img src="img/misiontic.png" width="50" alt=""></button>
+<button type="reset"> tipo reset</button>
+<button type="submit">Tipo submit</button>
+    </form>
+    <h1>Mi primer heading</h1>
+    <h2>Mi segundo heading</h2>
+    <h3>Mi tercer heading</h3>
+    <h4>Micuarto heading</h4>
+    <h5>mi quinto heading</h5>
+    <h6>mi chanchito feliz</h6>
+    <p>chanchito feliz esta muy feliz.</p>
+    <p>chanchito triste esta muy triste</p>
+    <hr>
+    <h2>Chanchito felipe</h2>
+    <p>texto de mas, mucho <span style="color:blue"> texto de mas</span>
+        <br><br> para mostrar span</p>
+    <!-- este es un comentario y no 
+        se vera en el explorador-->
+    <a target="_blank" href="https://www.google.com">ir a google</a>
+    <br><br><img src="img/misiontic.png" height="200" width="300"/>
+    <br><br>
+</body>
+</html>
