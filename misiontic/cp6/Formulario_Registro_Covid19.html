@@ -5,24 +5,24 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Registro</title>
-    <link rel="stylesheet" href="mistyle.css">
+    <link rel="stylesheet" href="css/mistyle.css">
 </head>
 
 <body>
     <h1>Registro para Vacunación <strong>COVID-19</strong></h1>
-    <form action="" method="GET">
+    <form action="" method="GET" name="form_Registro" onsubmit="validar_formulario()">
         <label for="">Sede</label>
         <input type="text" value="Panamericana" disabled>
         <br><br>
         <label for="nombre">Nombre:</label>
         <input type="text" name="nombre" id="nombre" placeholder="ej. pablo" required>
         <br><br>
-        <label for="apellido">Apellidos:</label>
-        <input type="text" name="apellido" id="apellido" placeholder="picapiedra" required>
+        <label for="apellido">Usuario:</label>
+        <input type="text" name="username" id="username" placeholder="picapiedra" required>
         <br><br>
         <label for="">Sexo</label>
-        <input type="radio">Hombre<!-- input de seleccion -->
-        <input type="radio">Mujer
+        <input type="radio" id = "sexo" value="h">Hombre<!-- input de seleccion -->
+        <input type="radio" id = "sexo" value="m">Mujer
         <br><br><!-- salto de linea -->
         <label for="correo">Correo</label>
         <input type="email" name="correo" id="correo" placeholder="pablo@correo.com" required><!-- placeholder : ejemplo de como se llena esa entrada y required : que se debe llenar ese campo -->
@@ -40,10 +40,11 @@
         <label for="terminos">Declaro haber leído y aceptar las
             condiciones generales del programa y la normativa sobre protección de datos</label>
             <br><br>        
-        <button type="button">
-            <img src="imagenes/boton2.png" alt="" width="60" >
+        <button type="submit">
+            <img src="css/boton2.png" alt="" width="80" >
         </button>
         </form>
+        <script src="nombre.js"></script>
     
 </body>
 </html>
