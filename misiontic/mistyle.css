@@ -1,0 +1,35 @@
+
+        body{
+            color:blue
+        }
+        h1{
+            font-family: sans-serif;
+            text-align: center;
+            background-color: lightblue;
+            color: #377ba8;
+        }
+        p{
+            font-family: sans-serif;
+        }
+        form{
+            width: 350px;
+            padding: 16px;  
+            border-radius: 10px;
+            margin: auto;
+            background: #ccc;
+            }
+            form input{
+                color: aquamarine;
+                background-color: black;
+            }
+            button{
+                text-align: center;
+                font-weight: bolder;
+            background-image: imagenes/boton. ;
+            color: antiquewhite;
+            padding: 7px;
+            border-radius: 4px;
+            margin-top: 10px;
+
+            }
+    

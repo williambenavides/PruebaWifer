@@ -26,3 +26,24 @@ p{
 .text-center{
     text-align: center;
 }
+.main{
+    display: flex;
+}
+.items-nav{
+    display: flex;
+    justify-content: space-between;
+}
+.items-nav li{
+    margin: 10px 15px 0 15px;
+}
+nav{
+    background-color: blue;
+    height: 40px;
+}
+.items-nav li{
+    color: aqua;
+}
+.main img{
+    margin-right: 20px;
+    
+}
